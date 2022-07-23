@@ -52,33 +52,33 @@ int main()
 //	switch (day)
 //	{
 //	case 1:
-//		printf("ĞÇÆÚÒ»\n");
+//		printf("æ˜ŸæœŸä¸€\n");
 //		break;
 //	case 2:
-//		printf("ĞÇÆÚ¶ş\n");
+//		printf("æ˜ŸæœŸäºŒ\n");
 //		break;
 //	case 3:
-//		printf("ĞÇÆÚÈı\n");
+//		printf("æ˜ŸæœŸä¸‰\n");
 //		break;
 //	case 4:
-//		printf("ĞÇÆÚËÄ\n");
+//		printf("æ˜ŸæœŸå››\n");
 //		break;
 //	case 5:
-//		printf("ĞÇÆÚÎå\n");
+//		printf("æ˜ŸæœŸäº”\n");
 //		break;
 //	case 6:
-//		printf("ĞÇÆÚÁù\n");
+//		printf("æ˜ŸæœŸå…­\n");
 //		break;
 //	case 7:
-//		printf("ĞÇÆÚÈÕ\n");
+//		printf("æ˜ŸæœŸæ—¥\n");
 //		break;
 //	default:
-//		printf("ÊäÈë´íÎó\n");
+//		printf("è¾“å…¥é”™è¯¯\n");
 //		break;
 //	}
 //	return 0;
 //}
-//int main()//Êä³ö1-100Ö®¼äµÄÆæÊı
+//int main()//è¾“å‡º1-100ä¹‹é—´çš„å¥‡æ•°
 //{
 //	int i = 1;
 //	int a = 0;
@@ -95,95 +95,95 @@ int main()
 //	}
 //	return 0;
 //}
-//int main()//ÅĞ¶ÏÒ»¸öÊıÊÇ²»ÊÇÆæÊı
+//int main()//åˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯ä¸æ˜¯å¥‡æ•°
 //{
 //	int a = 0;
 //	int b = 0;
 //	scanf("%d", &a);
 //	b = a % 2;
 //	if (b == 0)
-//		printf("%d²»ÊÇÆæÊı\n", a);
+//		printf("%dä¸æ˜¯å¥‡æ•°\n", a);
 //	else
-//		printf("%dÊÇÆæÊı\n", a);
+//		printf("%dæ˜¯å¥‡æ•°\n", a);
 //	return 0;
 //}
-// = ¸³Öµ·ûºÅ  == ÅĞ¶ÏÏàµÈ
-//int main()//·ÖÖ§Óï¾äÖĞÊ¹ÓÃ´úÂë¿éµÄ·½Ê½
+// = èµ‹å€¼ç¬¦å·  == åˆ¤æ–­ç›¸ç­‰
+//int main()//åˆ†æ”¯è¯­å¥ä¸­ä½¿ç”¨ä»£ç å—çš„æ–¹å¼
 //{
 //	int age = 0;
-//	printf("Ò»¸öÈËµÄÄêÁäÊÇ£º");
+//	printf("ä¸€ä¸ªäººçš„å¹´é¾„æ˜¯ï¼š");
 //	scanf("%d", &age);
-//	printf("Õı³£À´ËµËûÏÖÔÚÓ¦¸Ã£º");
+//	printf("æ­£å¸¸æ¥è¯´ä»–ç°åœ¨åº”è¯¥ï¼š");
 //	if (age < 18)
 //	{
-//		printf("ÊÇÎ´³ÉÄêÈË\n");
-//		printf("³¯ÆøÅî²ª\n");
+//		printf("æ˜¯æœªæˆå¹´äºº\n");
+//		printf("æœæ°”è“¬å‹ƒ\n");
 //	}
 //	else if (age >= 18 && age < 22)
 //	{
-//		printf("¶Á´óÑ§\n");
-//		printf("Ã÷È·×Ô¼ºÈËÉúµÄ·½Ïò\n");
+//		printf("è¯»å¤§å­¦\n");
+//		printf("æ˜ç¡®è‡ªå·±äººç”Ÿçš„æ–¹å‘\n");
 //	}
 //	else if (age >= 22 && age < 55)
 //	{
-//		printf("¸ãÇ®\n");
-//		printf("¸ãÑ§Êõ\n");
+//		printf("æé’±\n");
+//		printf("æå­¦æœ¯\n");
 //	}
 //	else if (age >= 55 && age < 100)
 //	{
-//		printf("ÍËĞİÑøÀÏ\n");
-//		printf("Ìø¹ã³¡Îè\n");
+//		printf("é€€ä¼‘å…»è€\n");
+//		printf("è·³å¹¿åœºèˆ\n");
 //	}
 //	else
 //	{
-//		printf("ĞŞÏÉ\n");
-//		printf("³ÉÎªÏÉÈË\n");
+//		printf("ä¿®ä»™\n");
+//		printf("æˆä¸ºä»™äºº\n");
 //	}
 //	return 0;
 //}
-//int main()//¼ÓÈëscanfº¯ÊıÊäÈëÒ»¸öÈËµÄÄêÁä£¬Í¬Ê±³¢ÊÔ·ÖÖ§Óï¾äµÄĞÂĞ´·¨
+//int main()//åŠ å…¥scanfå‡½æ•°è¾“å…¥ä¸€ä¸ªäººçš„å¹´é¾„ï¼ŒåŒæ—¶å°è¯•åˆ†æ”¯è¯­å¥çš„æ–°å†™æ³•
 //{
 //	//int age = 20;
 //	//int age = 10;
 //	//int age = 200;
 //	int age = 0;
-//	printf("ÓĞÒ»¸öÈË£¬ËûµÄÄêÁäÊÇ£º\n");
+//	printf("æœ‰ä¸€ä¸ªäººï¼Œä»–çš„å¹´é¾„æ˜¯ï¼š\n");
 //	scanf("%d", &age);
-//	printf("ÄÇÃ´ËûÊÇ¸ö£º");
+//	printf("é‚£ä¹ˆä»–æ˜¯ä¸ªï¼š");
 //	if (age < 18)
-//		printf("Î´³ÉÄê\n");
+//		printf("æœªæˆå¹´\n");
 //	else
 //	{
 //		if (age >= 18 && age < 28)
-//			printf("ÇàÄê\n");
+//			printf("é’å¹´\n");
 //		else if (age >= 28 && age < 50)
-//			printf("×³Äê\n");
+//			printf("å£®å¹´\n");
 //		else if (age >= 50 && age < 90)
-//			printf("ÀÏÄê\n");
+//			printf("è€å¹´\n");
 //		else
-//			printf("ÏÉÈË\n");
+//			printf("ä»™äºº\n");
 //	}
-//	int main()//¶à·ÖÖ§Óï¾ä
+//	int main()//å¤šåˆ†æ”¯è¯­å¥
 //	{
 //		int age = 15;
 //	/*if (age < 18)
-//		printf("Î´³ÉÄê\n");
+//		printf("æœªæˆå¹´\n");
 //	else if (age >= 18 && age < 28)
-//		printf("ÇàÄê\n");
+//		printf("é’å¹´\n");
 //	else if (age >= 28 && age < 50)
-//		printf("×³Äê\n");
+//		printf("å£®å¹´\n");
 //	else if (age >= 50 && age < 90)
-//		printf("ÀÏÄê\n");
+//		printf("è€å¹´\n");
 //	else
-//		printf("ÏÉÈË\n");*/
+//		printf("ä»™äºº\n");*/
 //	return 0;
 //}
-	//int main()//ifÓï¾ä»ù±¾Ê¹ÓÃ·½Ê½
+	//int main()//ifè¯­å¥åŸºæœ¬ä½¿ç”¨æ–¹å¼
 	//{
 		//int age = 10;
 	/*if (age < 18)
-		printf("Î´³ÉÄê\n");
+		printf("æœªæˆå¹´\n");
 	else 
-		printf("³ÉÄê\n");*/
+		printf("æˆå¹´\n");*/
 	//return 0;
 //}
